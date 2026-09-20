@@ -1,0 +1,12 @@
+state_*.json
+animate.log
+kframes/
+clips/
+audio/
+cards/prev_*.jpg
+cards/qc_*.json
+s3*.png
+s3*.jpg
+filtergraph.txt
+timeline.json
+test_upload.png
