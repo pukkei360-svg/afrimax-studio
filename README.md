@@ -68,3 +68,27 @@ compression), and masters the mix to **-14 LUFS / -1.5 dBTP** (YouTube spec).
 - Music: "Rising" — Kevin MacLeod (incompetech.com), CC BY 4.0
 - Fonts: Bebas Neue (OFL), Archivo Black (OFL)
 - Voices: Microsoft neural TTS via edge-tts (GPL-3.0)
+
+---
+
+## House Style (v3 — channel owner approved)
+
+**Every video: same African visual world + American-style script.**
+See `SCRIPT_STYLE.md` for the full rules. Quick version:
+
+- Visuals: Pixar-quality 3D, African setting, golden-hour grade, 9:16
+- Script: American YouTube-narrator style — cold-open hook in 5s, direct
+  address, short punchy sentences, escalation beats, one-line spoken moral
+- Voice: `en-US-AndrewMultilingualNeural` (edge-tts, rate -10%)
+  — alternates in `voice_samples/`
+- Cut: **no intro title text, no moral end card** — moral is spoken over the
+  final scene, then slow fade to black
+- Control via `story.json` meta flags: `"title_overlay": false`,
+  `"end_card": false`, `"voice"`, `"out_name"`
+
+## Cuts of The Fisherman's Gold
+
+| Cut | Style | File |
+|-----|-------|------|
+| v2 | Nigerian narrator + title + moral card | release v1.0.0 |
+| v3 | American narrator, clean (no text) | release v1.1.0 |

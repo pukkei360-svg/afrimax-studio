@@ -7,14 +7,18 @@
     "moral_footer": "SUBSCRIBE FOR MORE AFRICAN MORAL STORIES",
     "resolution": "1080x1920",
     "fps": 30,
-    "voice": "en-NG-AbeoNeural",
-    "voice_rate": "-12%",
-    "voice_pitch": "-2Hz"
+    "voice": "en-US-AndrewMultilingualNeural",
+    "voice_rate": "-10%",
+    "voice_pitch": "-2Hz",
+    "title_overlay": false,
+    "end_card": false,
+    "out_name": "fishermans-gold-clean-american-9x16.mp4",
+    "script_style": "american",
+    "notes": "House style: African visuals + American-style script. See SCRIPT_STYLE.md"
   },
   "scenes": [
     {
       "id": "s1",
-      "reuse": {"keyframe": "k1.png", "clip": "k1_motion.mp4"},
       "narration": [
         "What would you do... if you found a bag full of gold, and no one was watching?",
         "This is the story of Kwame... the honest fisherman of Oshimili."
@@ -23,7 +27,6 @@
     },
     {
       "id": "s2",
-      "reuse": {"keyframe": "k2.png", "clip": "k2_motion.mp4"},
       "narration": [
         "One quiet dawn, his old net grew heavy... heavy with a pouch of gold coins.",
         "Enough to buy ten boats. Enough to never go hungry again."
@@ -36,9 +39,7 @@
         "But Kwame remembered the words of his father:",
         "A coin that is not yours... is a debt that never sleeps."
       ],
-      "pad": 1.2,
-      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: elderly West African fisherman with short gray beard, weathered straw hat and worn mustard-colored shirt standing at the bow of his wooden pirogue on a wide calm river, seen from behind at three-quarter angle, gazing thoughtfully toward the far bank where a small West African river village sits among palm trees and a giant baobab tree, small brown leather pouch held gently against his chest. Rising morning sun burning through river mist, golden rim light on his shoulders, warm amber color grade, cinematic depth of field, vertical 9:16 composition",
-      "motion_prompt": "Slow cinematic drift shot from behind the elderly African fisherman standing at the bow of his wooden boat, gazing across the misty golden river toward the far village. The pouch is held gently against his chest, his straw hat and shirt edge sway faintly in the morning breeze, gentle river ripples and drifting mist, warm sunlight slowly strengthening through the haze. The fisherman holds a stable contemplative pose, no walking, no hand movement toward the pouch. Stable background, consistent character, 3D animated film style"
+      "pad": 1.2
     },
     {
       "id": "s4",
@@ -46,18 +47,14 @@
         "So he rowed ashore, and walked the dusty streets from hut to hut, asking everyone the same question:",
         "What have you lost?"
       ],
-      "pad": 1.4,
-      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: elderly West African fisherman with short gray beard, weathered straw hat and worn mustard-colored shirt walking slowly along the dusty main street of a small West African river village at late morning, holding a small brown leather pouch in both hands in front of his chest. Round mud-brick huts with thatched roofs, colorful hanging fabrics, giant baobab tree, a few villagers and curious children in the warm background watching him pass. Golden sunlight and long soft shadows, warm color grade, cinematic depth of field, vertical 9:16 composition",
-      "motion_prompt": "The elderly African fisherman walks slowly and steadily forward along the dusty village street holding the leather pouch in both hands, seen from a gentle side tracking shot. His straw hat and shirt sway naturally with his calm steps, dust motes float in the golden sunlight, villagers and children in the background move subtly, hanging fabrics stir faintly in the breeze. Slow steady pace, stable composition, consistent character, 3D animated film style"
+      "pad": 1.4
     },
     {
       "id": "s5",
       "narration": [
         "At last, the village elder pointed him to Mama Zainab... an old widow whose savings had slipped into the river three moons ago."
       ],
-      "pad": 1.2,
-      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: under the shade of a giant baobab tree at the edge of a small West African river village, a tall dignified elderly village chief in a white kente stole with a carved wooden staff gently places his hand on the shoulder of a kind elderly West African woman in a gray headwrap and indigo wax-print dress, pointing toward her small mud-brick home; the elderly fisherman with straw hat and mustard shirt listens with sincere concern, holding a small brown leather pouch. Warm late-morning light filtering through baobab leaves, dappled shadows, emotional storytelling mood, cinematic depth of field, vertical 9:16 composition",
-      "motion_prompt": "Gentle locked close-medium shot under the baobab tree: the tall village chief slowly lowers his pointing hand from the old woman's shoulder while speaking, the elderly fisherman listens with a slow sincere nod, the old woman raises her hands together in quiet hope. Dappled light shimmers softly through the baobab leaves, faint breeze in the grass. Characters hold stable poses with only small natural gestures, no walking, no camera movement, 3D animated film style"
+      "pad": 1.2
     },
     {
       "id": "s6",
@@ -65,19 +62,16 @@
         "Kwame placed the gold into her trembling hands... and the whole village fell silent.",
         "Then... the drums of joy began to beat."
       ],
-      "pad": 1.2,
-      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: emotional close-up, the weathered hands of an elderly West African fisherman in a worn mustard-colored sleeve placing a small brown leather pouch of gleaming gold coins into the trembling open hands of an elderly African woman, her indigo wax-print dress and gray headwrap softly blurred, a single tear of joy on her cheek, golden coins catching the warm light. Softly blurred village huts and watching villagers in the background, warm golden color grade, shallow depth of field, heartfelt emotional mood, vertical 9:16 composition",
-      "motion_prompt": "Slow intimate push-in on the emotional hand-over: the fisherman's weathered hands slowly release the small leather pouch of gold into the trembling open hands of the elderly woman, the coins glinting warm in the light, a single tear rolls down her cheek as she slowly closes her fingers around the pouch. Gentle depth-of-field breathing, warm light softly pulsing, all characters otherwise still, 3D animated film style"
+      "pad": 1.2
     },
     {
       "id": "s7",
       "narration": [
         "That evening, the river seemed to whisper its thanks.",
-        "His nets rose full of fish, fuller than they had ever been... and his heart, fuller still."
+        "His nets rose full of fish, fuller than they had ever been... and his heart, fuller still.",
+        "Honesty planted today... becomes tomorrow's harvest."
       ],
-      "pad": 1.6,
-      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: elderly West African fisherman with short gray beard and weathered straw hat laughing with pure joy in his wooden pirogue on a glowing sunset river, lifting a heavy fishing net overflowing with silver fish, his worn mustard-colored shirt glowing in orange light, the small village silhouette on the far bank, water sparkling with golden reflections, a few white egrets flying across a warm orange and pink sky. Triumphant heartwarming mood, rich warm color grade, cinematic depth of field, vertical 9:16 composition",
-      "motion_prompt": "Triumphant slow-motion shot: the elderly fisherman laughs with joy as he lifts the heavy net full of silver fish, water droplets sparkling in the golden sunset, the boat rocking gently, egrets gliding slowly across the warm sky behind him, golden reflections shimmering on the river. He holds the net high in a stable pose, background river and village remain stable, 3D animated film style"
+      "pad": 3.2
     }
   ]
 }
