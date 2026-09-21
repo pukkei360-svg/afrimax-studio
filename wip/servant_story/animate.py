@@ -19,7 +19,7 @@ CLIPS.mkdir(exist_ok=True)
 story = json.loads((BASE / "story.json").read_text())
 
 
-def run_cli(args: list, timeout: int = 420, on_429_sleep: int = 45) -> dict:
+def run_cli(args: list, timeout: int = 420, on_429_sleep: int = 120) -> dict:
     for attempt in range(1, 8):
         r = subprocess.run(args, capture_output=True, text=True, timeout=timeout)
         out_path = Path(args[args.index("--output") + 1])
@@ -30,7 +30,7 @@ def run_cli(args: list, timeout: int = 420, on_429_sleep: int = 45) -> dict:
                 pass
         err = (r.stderr or "") + (r.stdout or "")
         if ("429" in err or "Too many requests" in err) and attempt < 7:
-            wait = on_429_sleep * attempt
+            wait = on_429_sleep * attempt  # quota-friendly: 2,4,6...12 min backoff
             print(f"    429, backing off {wait}s (attempt {attempt})", flush=True)
             time.sleep(wait)
             continue
@@ -73,7 +73,7 @@ def animate(id_: str, motion_prompt: str) -> None:
             if data and data.get("id") and st in ("PROCESSING", "PENDING"):
                 print(f"[{id_}] polling cycle {cycle}", flush=True)
                 data = run_cli(["z-ai", "async-result", "-i", data["id"], "--poll",
-                                "--poll-interval", "5", "--max-polls", "110",
+                                "--poll-interval", "20", "--max-polls", "30",
                                 "--output", str(state)], timeout=680)
             elif st == "SUCCESS":
                 pass  # fall through to download
@@ -83,7 +83,7 @@ def animate(id_: str, motion_prompt: str) -> None:
                 print(f"[{id_}] submitting i2v", flush=True)
                 data = run_cli(["z-ai", "video", "-i", url, "-p", motion_prompt,
                                 "-s", "768x1344", "-d", "10", "-q", "quality", "--fps", "30",
-                                "--poll", "--poll-interval", "5", "--max-polls", "110",
+                                "--poll", "--poll-interval", "20", "--max-polls", "30",
                                 "--output", str(state)], timeout=680)
         except subprocess.TimeoutExpired:
             print(f"[{id_}] poll cycle timed out (task still server-side), retrying", flush=True)
