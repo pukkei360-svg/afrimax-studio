@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "THE SERVANT'S KEY",
+    "subtitle": "A MORAL STORY",
+    "moral_line": "Trust is earned in silence... and rewarded in time.",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "voice": "en-US-AndrewMultilingualNeural",
+    "voice_rate": "-10%",
+    "voice_pitch": "-2Hz",
+    "title_overlay": false,
+    "end_card": false,
+    "out_name": "the-servants-key-9x16.mp4",
+    "music_seek": 40,
+    "script_style": "american"
+  },
+  "scenes": [
+    {
+      "id": "v1",
+      "narration": [
+        "Some men guard gold. Ezra guarded something worth far more... his word.",
+        "For thirty years, he carried the keys to every vault in Lord Ashford's mansion."
+      ],
+      "pad": 1.4,
+      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: a grand Victorian mansion great hall at dusk, an elderly servant with silver hair combed back, kind dignified face, wearing neat gray livery with brass buttons, holding a brass candle lamp in one hand and a large ring of iron keys at his belt, standing on a rich red carpet beside polished mahogany doors, warm candlelight against deep blue evening windows, quiet dignified mood, cinematic depth of field, vertical 9:16 composition",
+      "motion_prompt": "Slow steady dolly toward the elderly servant standing in the mansion hall at dusk, candle flame flickering gently in his brass lamp, the ring of keys swaying very slightly at his belt, warm light breathing across the mahogany doors. The servant holds a calm stable pose, only his eyes slowly surveying the hall, background steady, 3D animated film style"
+    },
+    {
+      "id": "v2",
+      "narration": [
+        "While others came and went, Ezra stayed. Polishing silver nobody praised him for.",
+        "Trusted with everything. Noticed by no one."
+      ],
+      "pad": 1.2,
+      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: an elderly servant with silver hair combed back, wearing neat gray livery with brass buttons, alone in a dim mansion butler's pantry at night, carefully polishing a silver candlestick to a shine, shelves of gleaming silver around him, a single warm lamp, his face calm and content in honest work, moonlight through a small high window, quiet contemplative mood, cinematic depth of field, vertical 9:16 composition",
+      "motion_prompt": "Gentle close shot: the elderly servant polishes the silver candlestick with slow circular motions, the cloth moving rhythmically, reflections shifting on the silver, the lamp light warm and steady, faint moonlight in the small window. He works in a stable calm pose at the counter, shelves and room perfectly still, 3D animated film style"
+    },
+    {
+      "id": "v3",
+      "narration": [
+        "Then one night, a new footman whispered to him: The vault is open.",
+        "One handful... and we are free men."
+      ],
+      "pad": 1.2,
+      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: dark mansion corridor at night, a young footman with slicked dark hair and black livery leaning close whispering to an elderly servant with silver hair and gray livery with brass buttons, pointing toward a heavy iron vault door standing half open at the corridor's end, warm gold light spilling from inside the vault onto the stone floor, the footman's face sly and tempting, the old servant's face troubled, dramatic chiaroscuro lighting, tension, cinematic depth of field, vertical 9:16 composition",
+      "motion_prompt": "Tense night scene: the young footman leans in whispering, his pointing arm extended toward the half-open vault at the end of the corridor, warm gold light flickering from the vault onto the stone floor, while the elderly servant stands rooted, his troubled face lit from the side. Both hold stable poses, only small whisper gestures and light flicker, no walking, 3D animated film style"
+    },
+    {
+      "id": "v4",
+      "narration": [
+        "Ezra looked at the gold for a long moment. Then he closed the vault... and locked it.",
+        "Freedom bought with stolen gold... is just a nicer cage."
+      ],
+      "pad": 1.2,
+      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: close-up of the weathered hands of an elderly servant turning a large iron key in the heavy lock of a massive iron vault door, the vault now shut, warm golden light from a wall sconce glinting on the key and his brass buttoned gray sleeve, his dignified face firmly resolved in soft focus behind, deep shadows and warm light, powerful quiet moment of integrity, cinematic depth of field, vertical 9:16 composition",
+      "motion_prompt": "Slow intimate close-up: the elderly servant's weathered hands steadily turn the great iron key in the vault lock, the bolt sliding home with a firm motion, the warm sconce light flickering gently on the metal, his resolved face steady in soft focus behind. Stable composition, single deliberate action, 3D animated film style"
+    },
+    {
+      "id": "v5",
+      "narration": [
+        "The next morning, Lord Ashford announced that gold was missing. Every servant was called to the hall.",
+        "All eyes turned to the man who held the keys. But Ezra stood tall... Truth needs no witness."
+      ],
+      "pad": 1.4,
+      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: grand mansion hall in cold morning light, an elderly lord with white mustache and burgundy velvet smoking jacket standing at the top of the staircase with a stern face, five servants in gray livery lined up below with nervous faces, all of them staring at the one elderly servant with silver hair standing calmly tall at the front, chin raised with quiet dignity, tall windows casting pale light beams, tense courtroom-like atmosphere, cinematic depth of field, vertical 9:16 composition",
+      "motion_prompt": "Tense hall scene: the elderly lord stands stern at the staircase top, the nervous servants whisper and shift nervously, exchanging glances toward the calm old servant at the front who stands perfectly tall and still, chin raised with dignity, pale morning light beams slowly shifting through the windows. Characters hold stable positions with only small anxious gestures, 3D animated film style"
+    },
+    {
+      "id": "v6",
+      "narration": [
+        "Then Lord Ashford smiled... and opened the vault himself. Nothing was gone.",
+        "It was a test... and Ezra was the only one who passed."
+      ],
+      "pad": 1.2,
+      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: an elderly lord with white mustache in burgundy velvet smoking jacket standing beside a wide-open massive iron vault door, gesturing with a warm proud smile toward shelves of gleaming gold bars and coins inside, golden light washing the hall, servants gasping in the background, a young footman with slicked dark hair shrinking back in shame at the edge, the elderly silver-haired servant standing calm in the golden glow, triumphant reveal moment, cinematic depth of field, vertical 9:16 composition",
+      "motion_prompt": "Triumphant reveal: the elderly lord sweeps his arm toward the wide-open vault, golden light spilling across the hall, the servants gasping softly in the background, the young footman slowly shrinking back in shame at the edge, while the old silver-haired servant stands calm and still in the golden glow. All characters hold stable positions with small gestures, stable background, 3D animated film style"
+    },
+    {
+      "id": "v7",
+      "narration": [
+        "Years later, on his final night, the old master pressed the keys into Ezra's hands.",
+        "The house, the vault, the gold... it belongs to the man who never touched it. Well done, my friend.",
+        "Trust is earned in silence... and rewarded in time."
+      ],
+      "pad": 3.0,
+      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: emotional candlelit bedchamber, an elderly lord with white mustache lying in a grand four-poster bed pressing a large ring of iron keys into the weathered hands of an elderly servant with silver hair and gray livery kneeling beside the bed, both faces tender with tears and a lifetime of respect, soft candle glow, one window with night sky and a bright star, deeply moving farewell moment, warm amber palette, cinematic depth of field, vertical 9:16 composition",
+      "motion_prompt": "Slow intimate emotional scene: the elderly lord gently presses the ring of keys into the kneeling servant's hands, candlelight breathing softly around the bedchamber, a single tear rolling down the old servant's cheek as he slowly bows his head over the keys. Both characters hold stable tender poses, no camera movement, warm and still, 3D animated film style"
+    }
+  ]
+}

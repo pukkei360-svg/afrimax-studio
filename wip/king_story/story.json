@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "THE KING WHO SILENCED THE TRUTH",
+    "subtitle": "A MORAL STORY",
+    "moral_line": "The crown doesn't make the king... the truth does.",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "voice": "en-US-AndrewMultilingualNeural",
+    "voice_rate": "-10%",
+    "voice_pitch": "-2Hz",
+    "title_overlay": false,
+    "end_card": false,
+    "out_name": "the-king-who-silenced-the-truth-9x16.mp4",
+    "music_seek": 10,
+    "script_style": "american"
+  },
+  "scenes": [
+    {
+      "id": "k1",
+      "narration": [
+        "What if everything you were told... was a lie told to your face?",
+        "This is the story of King Elio... the young king who wore a blindfold made of praise."
+      ],
+      "pad": 1.4,
+      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: a grand golden throne room with towering marble columns, a young king with short dark curls, clean-shaven, wearing a white-and-gold royal tunic and a slim golden circlet, seated on an ornate golden throne looking slightly bored and self-satisfied. Advisors in rich robes stand below holding gift boxes, morning sunbeams cutting through tall windows, dust motes in volumetric light. Warm gold and cream palette, cinematic depth of field, vertical 9:16 composition",
+      "motion_prompt": "Slow majestic push-in toward the young king on his golden throne as sunbeams shift subtly through the tall windows and dust motes drift through volumetric light. The advisors below hold very still with small bows, gift boxes steady in their hands. The king sits in a stable relaxed pose, only his eyes moving proudly across the hall. Stable background, consistent character, 3D animated film style"
+    },
+    {
+      "id": "k2",
+      "narration": [
+        "Every morning, his advisors arrived with gifts... and honeyed words.",
+        "You are the wisest king in a hundred years, they said. And he believed every word."
+      ],
+      "pad": 1.2,
+      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: close-medium shot of two plump smiling court advisors in jewel-toned velvet robes leaning toward the throne, one offering a golden gift box, their faces sweetly flattering with narrowed scheming eyes, while a young king with short dark curls, white-and-gold royal tunic and slim golden circlet smiles proudly, chin raised, completely convinced. Opulent marble hall softly blurred behind, warm candle-gold lighting, cinematic depth of field, vertical 9:16 composition",
+      "motion_prompt": "Gentle close-medium shot: the two advisors bow and nod with slow flattery, one carefully raising the golden gift box a little higher, while the young king's proud smile slowly widens, chin lifting slightly. Candles flicker softly in the background bokeh. All characters hold stable poses with only small natural head and hand movements, no walking, stable composition, 3D animated film style"
+    },
+    {
+      "id": "k3",
+      "narration": [
+        "Only one man spoke differently. An old scribe named Dara.",
+        "My king... the granaries are empty, and the people are hungry. The hall went silent."
+      ],
+      "pad": 1.2,
+      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: in the golden throne room an elderly scribe with a white beard, round spectacles and a plain gray-brown robe stands apart from the crowd holding an unrolled scroll, his weathered face serious and honest, while shocked advisors in rich robes turn to stare at him and a young king with short dark curls and white-and-gold tunic leans forward from his throne with a frown. Dramatic tension, one shaft of light on the scribe, cinematic depth of field, vertical 9:16 composition",
+      "motion_prompt": "Slow dolly toward the old scribe holding the unrolled scroll as he speaks, his hand gesturing calmly at the scroll, the advisors around him turning their heads to stare in slow shock, the king on his throne leaning forward with a deepening frown. The scribe stands in a stable dignified pose, background hall steady, 3D animated film style"
+    },
+    {
+      "id": "k4",
+      "narration": [
+        "Truth is a bitter medicine. The young king refused to swallow it.",
+        "Get out, he said. And the only honest voice in the palace... walked out into the rain."
+      ],
+      "pad": 1.2,
+      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: an elderly scribe with white beard, round spectacles and plain gray-brown robe walking away from a massive palace gate in heavy rain at dusk, clutching his scroll to his chest, his back stooped but dignified, rain streaking through lantern light, cold blue-gray palette with one warm palace window glowing behind him, emotional somber mood, cinematic depth of field, vertical 9:16 composition",
+      "motion_prompt": "Slow emotional tracking shot: the old scribe walks steadily away from the palace gate into the falling rain, his robe and beard damp, rain streaking through the lantern light, puddles rippling around his slow steps, the warm palace window glowing faintly behind him. The scribe holds a stable walking rhythm, background gate and walls steady, 3D animated film style"
+    },
+    {
+      "id": "k5",
+      "narration": [
+        "Within one season, the lies grew fat... and the kingdom grew thin.",
+        "The king looked at his charts, his gold, his empty farms. No one had warned him. No one... had dared."
+      ],
+      "pad": 1.2,
+      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: a young king with short dark curls and white-and-gold royal tunic sitting alone at a vast dark wooden council table at night, slumped and worried, surrounded by scattered parchment charts and maps showing falling numbers, a single candelabra casting long shadows, his golden circlet slightly askew, cold moonlight mixing with dim candlelight, heavy somber mood, cinematic depth of field, vertical 9:16 composition",
+      "motion_prompt": "Slow somber push-in on the young king alone at the huge table at night, candle flames flickering gently, his shoulders slowly sagging as he stares at the scattered charts, one hand rubbing his forehead. The papers and room remain perfectly still except the candlelight dancing softly. Stable composition, consistent character, 3D animated film style"
+    },
+    {
+      "id": "k6",
+      "narration": [
+        "So the king dressed in plain clothes... and walked among his people for the first time.",
+        "And there, in a poor quarter, teaching children to read... he found the man he had banished."
+      ],
+      "pad": 1.2,
+      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: a humble dusty street of small clay houses at warm dusk, an elderly scribe with white beard, round spectacles and plain gray-brown robe sitting on a low stool teaching three animated children gathered around an open book, while a young king with short dark curls in a simple brown traveling cloak and tunic stands stunned in the foreground, hood down, watching them. Golden dusk light, long shadows, emotional warm mood, cinematic depth of field, vertical 9:16 composition",
+      "motion_prompt": "Warm evening scene: the old scribe sits on the low stool slowly turning a page of the book for the children, the children leaning in with bright eyes, while the disguised king in his brown cloak stands watching, stunned, slowly removing his hood. Gentle dust and golden light drift through the scene, all characters hold stable poses with small natural movements, stable background, 3D animated film style"
+    },
+    {
+      "id": "k7",
+      "narration": [
+        "The king knelt before the old scribe. I was blind, he said. Then see, Dara smiled.",
+        "That day, the truth returned to the palace... and never left.",
+        "The crown doesn't make the king... the truth does."
+      ],
+      "pad": 3.0,
+      "keyframe_prompt": "Cinematic still from a 3D animated short film, Blender 3D animation style, Pixar-quality render: emotional wide shot at golden hour, a young king with short dark curls wearing a simple brown cloak over his white-and-gold tunic kneeling humbly on a dusty street before an elderly scribe with white beard, round spectacles and plain gray-brown robe seated on a low stool, the scribe gently placing a hand on the king's shoulder with a warm forgiving smile, three children watching with wonder, clay houses and lanterns softly blurred behind, golden sunset light bathing the scene, deeply emotional heartwarming mood, cinematic depth of field, vertical 9:16 composition",
+      "motion_prompt": "Slow intimate push-in at golden hour: the kneeling king bows his head humbly as the old scribe gently rests his hand on his shoulder with a warm smile, the children watching quietly, lantern light and sunset glow breathing softly over the scene. Both characters hold stable emotional poses, no walking, background steady, 3D animated film style"
+    }
+  ]
+}
