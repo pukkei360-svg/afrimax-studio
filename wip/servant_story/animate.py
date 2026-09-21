@@ -88,6 +88,10 @@ def animate(id_: str, motion_prompt: str) -> None:
         except subprocess.TimeoutExpired:
             print(f"[{id_}] poll cycle timed out (task still server-side), retrying", flush=True)
             continue
+        except RuntimeError as e:
+            print(f"[{id_}] CLI error ({str(e)[-100:]}), sleeping 240s", flush=True)
+            time.sleep(240)
+            continue
         if data.get("task_status") != "SUCCESS":
             print(f"[{id_}] status={data.get('task_status')}, continuing", flush=True)
             time.sleep(10)
