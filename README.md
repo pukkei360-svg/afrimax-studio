@@ -73,10 +73,13 @@ compression), and masters the mix to **-14 LUFS / -1.5 dBTP** (YouTube spec).
 
 ## House Style (v3 — channel owner approved)
 
-**Every video: same African visual world + American-style script.**
-See `SCRIPT_STYLE.md` for the full rules. Quick version:
+**Every video: 3D animated style + a spoken moral. The WORLD changes every
+time — kingdom, village, office, mansion, battlefield... any place, any hero
+(king, boy, manager, servant, farmer...).**
+See `SCRIPT_STYLE.md` for the full rules + story catalog. Quick version:
 
-- Visuals: Pixar-quality 3D, African setting, golden-hour grade, 9:16
+- Visuals: Pixar-quality 3D render, cinematic light, 9:16 — the one constant
+- World & hero: DIFFERENT every story (see story-type catalog in guide)
 - Script: American YouTube-narrator style — cold-open hook in 5s, direct
   address, short punchy sentences, escalation beats, one-line spoken moral
 - Voice: `en-US-AndrewMultilingualNeural` (edge-tts, rate -10%)
